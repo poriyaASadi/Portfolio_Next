@@ -2,6 +2,7 @@ import Image from 'next/image'
 //import { VideoText } from "../components/ui/video-text";
 import { SpinningText } from "../components/ui/spinning-text";
 import { NumberTicker } from '../components/ui/number-ticker';
+import { button } from 'motion/react-client';
 export default function Home() {
   return (
     <>
