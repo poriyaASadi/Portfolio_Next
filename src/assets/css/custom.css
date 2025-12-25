@@ -1,0 +1,11 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color:  #05df72 #333;
+  }
+  *::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 100%;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: red;
+  }
