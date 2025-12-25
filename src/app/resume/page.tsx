@@ -6,7 +6,7 @@ import AboutMeCodeView from '@/components/AboutMeCodeView';
 function page() {
 
     const sections: Section[] = ['experience', 'education', 'skills', 'about me'];
-    const svgSkills: [] = [
+    const svgSkills = [
         <svg role="img" viewBox="0 0 24 24" fill='currentColor' xmlns="http://www.w3.org/2000/svg"><title>VueUse</title><path d="M.876.001v12.873C.876 19.018 5.856 24 12 24s11.124-4.982 11.124-11.126V0h-9.218v12.874c0 2.543-3.812 2.543-3.812 0V0Zm4.609 1.001h3.608v11.872C9.089 14.555 10.354 15.79 12 15.79s2.911-1.236 2.907-2.916V1.002h3.608v11.872a6.515 6.515 0 0 1-13.03 0z" /></svg>,
         <svg role="img" viewBox="0 0 24 24" fill='currentColor' xmlns="http://www.w3.org/2000/svg"><title>Vue.js</title><path d="M24,1.61H14.06L12,5.16,9.94,1.61H0L12,22.39ZM12,14.08,5.16,2.23H9.59L12,6.41l2.41-4.18h4.43Z" /></svg>,
         <svg role="img" viewBox="0 0 24 24" fill='currentColor' xmlns="http://www.w3.org/2000/svg"><title>Vuetify</title><path d="M6.312 12.564 12.636 1.2H0l6.312 11.364ZM14.94 1.2 7.464 14.64 12 22.8 24 1.2h-9.06Zm4.98 2.4L12 17.856l-1.788-3.216L16.344 3.6h3.576ZM6.312 7.62 4.08 3.6h4.476L6.312 7.62Z" /></svg>,
