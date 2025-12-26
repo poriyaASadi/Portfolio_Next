@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { motion } from "motion/react"
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
